@@ -1,0 +1,86 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The root schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "default": {},
+  "examples": [
+    {
+      "id": 1,
+      "title": "Book 1",
+      "description": "Rebum sed nonumy sit justo takimata erat ipsum lorem sit. Sed ipsum sed stet est ipsum no et ipsum. Dolore est tempor facilisi adipiscing sanctus ut aliquyam diam duo labore accusam accusam sit eu lorem sit ut et. Et gubergren nulla. Eirmod amet sanctus est et ipsum sit et lorem. Sanctus diam ea dolor zzril ipsum sanctus facilisis lorem rebum.\n",
+      "pageCount": 100,
+      "excerpt": "Eu eum facilisis justo facilisi ipsum est. Nihil facilisis gubergren hendrerit ipsum aliquyam odio sed tempor eirmod takimata. Vero consectetuer duis iusto praesent dolore magna vero diam clita gubergren ipsum ea elitr ipsum. Sea stet at sit ut rebum invidunt dolore sit nonumy at no in dolor consetetur. Illum aliquyam ipsum ut ut est suscipit accusam nobis duis magna velit. Eu lorem accusam ipsum velit sanctus sadipscing voluptua eos duo no diam quod ipsum feugait justo sanctus iusto. Ipsum illum dolore rebum ipsum at sit et kasd magna amet amet labore tempor. Dolor ut est ut elitr tempor sit diam erat ut amet suscipit tempor labore soluta erat at. Rebum erat takimata nonumy. Facilisis feugiat autem ut et. Kasd et amet odio duo ipsum diam feugait at eos voluptua dolor in magna consequat ea accusam facilisis elitr. Labore blandit ipsum dolore. Ea commodo labore. Nonummy illum kasd blandit dolores facilisis nulla sanctus voluptua eros velit. Clita dolor consequat sit ut invidunt ipsum hendrerit ipsum vel et nonumy feugait et dolores invidunt et accusam. Velit justo amet elitr in sed gubergren commodo at lorem labore qui ipsum facilisi zzril.\nErat sea tempor hendrerit. Et justo ea eirmod sed. Dolore nonummy esse dolor dolor. Veniam est odio nulla minim. Amet duis facilisis et sit ut. Sed illum est amet at dolores tempor. Labore clita et voluptua assum at dolor veniam. Sed duo amet. Nisl amet sed dolores diam accusam accumsan. Et dolor quis in et dolore kasd dolore dolor erat et sanctus accusam lorem rebum. In ut hendrerit lorem duis stet diam et ea lorem stet dolor lorem lobortis sanctus diam justo. Nostrud tincidunt aliquip luptatum accusam molestie magna est adipiscing clita et. Sed diam hendrerit et invidunt magna eos dolor stet consetetur ipsum. Molestie amet luptatum vulputate duis dolore erat. Soluta sanctus amet exerci labore tempor clita et ea at ea dolor nibh eirmod voluptua amet labore et congue. Consetetur ipsum sea elit ea stet et invidunt.\nLorem est duo dolor sanctus gubergren diam velit dolore sea ea invidunt dignissim gubergren nonumy sea eirmod. Stet dolor tation eu et et duo et takimata et vero nonumy ea illum. Et laoreet sea congue aliquyam clita eos sed elitr duis amet. Voluptua accumsan invidunt sea esse ut et sed sadipscing dolores dolores doming erat assum. Kasd rebum ut est voluptua eros elitr. Tempor kasd ut consetetur. Elit sed clita exerci vel accusam nonumy elitr suscipit lorem erat aliquyam amet tempor clita. Sit voluptua diam sadipscing stet sit et. Autem sed velit et tempor ut dolor feugait nonumy. Ipsum ex at enim suscipit eu soluta. Illum commodo sed consetetur lorem sed et sed amet gubergren tempor magna magna. Accusam lorem magna diam amet ea amet iriure ipsum sea nulla sit sea takimata molestie rebum nonummy. Soluta vero dolores duo.\nVel et sed. Vero augue kasd consetetur suscipit ipsum laoreet lorem dolore at tempor. Sed dolor lorem in consetetur dolor kasd vero enim sit dolore. Vero duo dolore rebum kasd et enim tempor eirmod kasd wisi ea justo consequat erat in. Sit elit lorem eos iriure ipsum nulla et facilisis sit duis accusam gubergren invidunt. Vero iriure ipsum. Qui sed ut lorem enim aliquam sed est lorem et diam dolores. Eu accusam elit stet ea. Labore accusam cum in justo veniam eirmod. Nonumy vero lorem. Ut dolores imperdiet sadipscing accusam sed. Sea takimata duis iriure sanctus rebum eos vel aliquip sit. Ut sed velit sed sadipscing autem duis hendrerit te molestie et dolores liber accusam. Magna sed sed sanctus autem eirmod lorem nonumy dolore et id lorem sea vel. Velit duis quod sit clita in ad sadipscing minim diam veniam ipsum eleifend et dolores duo et. Autem minim feugiat at stet dolore iriure et et accusam et justo ea. Ipsum et sit magna nisl velit dolor aliquyam vero.\nSit dolore no invidunt diam velit accusam praesent feugait aliquyam. Erat eos dolore. Eu sed sed rebum stet vel ipsum autem et sea iriure eum consequat velit labore elit eirmod praesent. Et sit nonumy ex kasd kasd elitr iusto lorem diam amet eros in lorem facilisis duo sadipscing. Kasd eu ut consetetur accusam lorem laoreet elit volutpat. Assum sed kasd ipsum feugiat et et commodo invidunt eros. Et voluptua ea illum diam erat duo rebum velit tempor consetetur facilisis ea gubergren dolor id consetetur dolor amet. Dolor vero magna nonumy in dolore amet et ea aliquyam magna facilisis eos sed. No sed sed nonumy dolore facer eos. Sed stet autem voluptua ut no ipsum erat stet eu amet.\n",
+      "publishDate": "2021-06-12T14:23:32.6079355+00:00"
+    }
+  ],
+  "required": [
+    "id",
+    "pageCount",
+    "publishDate"
+  ],
+  "properties": {
+    "id": {
+      "$id": "#/properties/id",
+      "type": "integer",
+      "title": "The id schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        1
+      ]
+    },
+    "title": {
+      "$id": "#/properties/title",
+      "type": "string",
+      "title": "The title schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Book 1"
+      ]
+    },
+    "description": {
+      "$id": "#/properties/description",
+      "type": "string",
+      "title": "The description schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Rebum sed nonumy sit justo takimata erat ipsum lorem sit. Sed ipsum sed stet est ipsum no et ipsum. Dolore est tempor facilisi adipiscing sanctus ut aliquyam diam duo labore accusam accusam sit eu lorem sit ut et. Et gubergren nulla. Eirmod amet sanctus est et ipsum sit et lorem. Sanctus diam ea dolor zzril ipsum sanctus facilisis lorem rebum.\n"
+      ]
+    },
+    "pageCount": {
+      "$id": "#/properties/pageCount",
+      "type": "integer",
+      "title": "The pageCount schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0,
+      "examples": [
+        100
+      ]
+    },
+    "excerpt": {
+      "$id": "#/properties/excerpt",
+      "type": "string",
+      "title": "The excerpt schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Eu eum facilisis justo facilisi ipsum est. Nihil facilisis gubergren hendrerit ipsum aliquyam odio sed tempor eirmod takimata. Vero consectetuer duis iusto praesent dolore magna vero diam clita gubergren ipsum ea elitr ipsum. Sea stet at sit ut rebum invidunt dolore sit nonumy at no in dolor consetetur. Illum aliquyam ipsum ut ut est suscipit accusam nobis duis magna velit. Eu lorem accusam ipsum velit sanctus sadipscing voluptua eos duo no diam quod ipsum feugait justo sanctus iusto. Ipsum illum dolore rebum ipsum at sit et kasd magna amet amet labore tempor. Dolor ut est ut elitr tempor sit diam erat ut amet suscipit tempor labore soluta erat at. Rebum erat takimata nonumy. Facilisis feugiat autem ut et. Kasd et amet odio duo ipsum diam feugait at eos voluptua dolor in magna consequat ea accusam facilisis elitr. Labore blandit ipsum dolore. Ea commodo labore. Nonummy illum kasd blandit dolores facilisis nulla sanctus voluptua eros velit. Clita dolor consequat sit ut invidunt ipsum hendrerit ipsum vel et nonumy feugait et dolores invidunt et accusam. Velit justo amet elitr in sed gubergren commodo at lorem labore qui ipsum facilisi zzril.\nErat sea tempor hendrerit. Et justo ea eirmod sed. Dolore nonummy esse dolor dolor. Veniam est odio nulla minim. Amet duis facilisis et sit ut. Sed illum est amet at dolores tempor. Labore clita et voluptua assum at dolor veniam. Sed duo amet. Nisl amet sed dolores diam accusam accumsan. Et dolor quis in et dolore kasd dolore dolor erat et sanctus accusam lorem rebum. In ut hendrerit lorem duis stet diam et ea lorem stet dolor lorem lobortis sanctus diam justo. Nostrud tincidunt aliquip luptatum accusam molestie magna est adipiscing clita et. Sed diam hendrerit et invidunt magna eos dolor stet consetetur ipsum. Molestie amet luptatum vulputate duis dolore erat. Soluta sanctus amet exerci labore tempor clita et ea at ea dolor nibh eirmod voluptua amet labore et congue. Consetetur ipsum sea elit ea stet et invidunt.\nLorem est duo dolor sanctus gubergren diam velit dolore sea ea invidunt dignissim gubergren nonumy sea eirmod. Stet dolor tation eu et et duo et takimata et vero nonumy ea illum. Et laoreet sea congue aliquyam clita eos sed elitr duis amet. Voluptua accumsan invidunt sea esse ut et sed sadipscing dolores dolores doming erat assum. Kasd rebum ut est voluptua eros elitr. Tempor kasd ut consetetur. Elit sed clita exerci vel accusam nonumy elitr suscipit lorem erat aliquyam amet tempor clita. Sit voluptua diam sadipscing stet sit et. Autem sed velit et tempor ut dolor feugait nonumy. Ipsum ex at enim suscipit eu soluta. Illum commodo sed consetetur lorem sed et sed amet gubergren tempor magna magna. Accusam lorem magna diam amet ea amet iriure ipsum sea nulla sit sea takimata molestie rebum nonummy. Soluta vero dolores duo.\nVel et sed. Vero augue kasd consetetur suscipit ipsum laoreet lorem dolore at tempor. Sed dolor lorem in consetetur dolor kasd vero enim sit dolore. Vero duo dolore rebum kasd et enim tempor eirmod kasd wisi ea justo consequat erat in. Sit elit lorem eos iriure ipsum nulla et facilisis sit duis accusam gubergren invidunt. Vero iriure ipsum. Qui sed ut lorem enim aliquam sed est lorem et diam dolores. Eu accusam elit stet ea. Labore accusam cum in justo veniam eirmod. Nonumy vero lorem. Ut dolores imperdiet sadipscing accusam sed. Sea takimata duis iriure sanctus rebum eos vel aliquip sit. Ut sed velit sed sadipscing autem duis hendrerit te molestie et dolores liber accusam. Magna sed sed sanctus autem eirmod lorem nonumy dolore et id lorem sea vel. Velit duis quod sit clita in ad sadipscing minim diam veniam ipsum eleifend et dolores duo et. Autem minim feugiat at stet dolore iriure et et accusam et justo ea. Ipsum et sit magna nisl velit dolor aliquyam vero.\nSit dolore no invidunt diam velit accusam praesent feugait aliquyam. Erat eos dolore. Eu sed sed rebum stet vel ipsum autem et sea iriure eum consequat velit labore elit eirmod praesent. Et sit nonumy ex kasd kasd elitr iusto lorem diam amet eros in lorem facilisis duo sadipscing. Kasd eu ut consetetur accusam lorem laoreet elit volutpat. Assum sed kasd ipsum feugiat et et commodo invidunt eros. Et voluptua ea illum diam erat duo rebum velit tempor consetetur facilisis ea gubergren dolor id consetetur dolor amet. Dolor vero magna nonumy in dolore amet et ea aliquyam magna facilisis eos sed. No sed sed nonumy dolore facer eos. Sed stet autem voluptua ut no ipsum erat stet eu amet.\n"
+      ]
+    },
+    "publishDate": {
+      "$id": "#/properties/publishDate",
+      "type": "string",
+      "title": "The publishDate schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "2021-06-12T14:23:32.6079355+00:00"
+      ]
+    }
+  },
+  "additionalProperties": true
+}
